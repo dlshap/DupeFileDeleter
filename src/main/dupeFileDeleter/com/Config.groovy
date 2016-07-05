@@ -5,6 +5,5 @@ package main.dupeFileDeleter.com
  */
 class Config {
 //    def rootDir = "D:\\My Music\\iTunes\\iTunes Media\\Music"
-    def rootDir = "C:\\test\\DupeFileDeleter"
-    def anotherConfigSetting = false //a dummy for Git testing
+    def rootDir = "C:\\test"
 }
