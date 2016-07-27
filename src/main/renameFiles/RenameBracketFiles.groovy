@@ -1,8 +1,8 @@
-package main.dupeFileDeleter.com
+package main.renameFiles
 
 import directoryManager.dupeFileDeleter.com.ChooseDirectory
-import directoryManager.dupeFileDeleter.com.DirectoryManager
 import directoryManager.dupeFileDeleter.com.FileManager
+import main.dupeFileDeleter.com.Config
 
 /**
  * Created by s0041664 on 7/1/2016.
