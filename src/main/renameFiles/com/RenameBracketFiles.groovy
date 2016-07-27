@@ -1,4 +1,4 @@
-package main.renameFiles
+package main.renameFiles.com
 
 import directoryManager.dupeFileDeleter.com.ChooseDirectory
 import directoryManager.dupeFileDeleter.com.FileManager
