@@ -5,7 +5,8 @@ package directoryManager.dupeFileDeleter.com
  */
 class FileManager {
 
-    def defaultPattern = /(.*) [\d]+(\..*)/
+//    def defaultPattern = /(.*) [\d]+(\..*)/
+    def defaultPattern = /(.*)[\[.*\]].csv/
 
     List getMatchingFiles(matchDirectory) {
         /* get numbered files by default(dupes) */
