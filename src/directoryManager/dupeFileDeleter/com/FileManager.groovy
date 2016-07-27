@@ -1,12 +1,13 @@
 package directoryManager.dupeFileDeleter.com
 
+import main.dupeFileDeleter.com.Config
+
 /**
  * Created by s0041664 on 6/30/2016.
  */
 class FileManager {
 
-//    def defaultPattern = /(.*) [\d]+(\..*)/
-    def defaultPattern = /(.*)[\[.*\]].csv/
+    def defaultPattern = new Config().defaultPattern
 
     List getMatchingFiles(matchDirectory) {
         /* get numbered files by default(dupes) */

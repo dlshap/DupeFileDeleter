@@ -5,7 +5,9 @@ package main.dupeFileDeleter.com
  */
 class Config {
 //    def rootDir = "D:\\My Music\\iTunes\\iTunes Media\\Music"
-//    def rootDir = "C:\\test"
+//    def defaultPattern = /(.*) [\d]+(\..*)   // for iTunes /
 //    def rootDir = "J:\\aura\\UP\\RMT Rules\\Disclosures"
-    def rootDir = "J:\\aura\\UP\\RMT Rules\\Disclosures\\Export Decision Tables 07-27-16 after promotion Correct Names"
+//    def rootDir = "J:\\aura\\UP\\RMT Rules\\Disclosures\\Export Decision Tables 07-27-16 after promotion Correct Names"
+    def rootDir = "C:\\test"
+    def defaultPattern = /(.*)\[.*TestCases\].csv/   //bracket file pattern
 }
