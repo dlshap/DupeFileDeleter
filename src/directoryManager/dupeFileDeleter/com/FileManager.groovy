@@ -12,12 +12,14 @@ class FileManager {
     List getMatchingFiles(matchDirectory) {
         /* get numbered files by default(dupes) */
         def filePattern
-        getMatchingFiles(matchDirectory, ~defaultPattern)
+        getMatchingFiles(matchDirectory, defaultPattern)
     }
 
     List getMatchingFiles(matchDirectory, filePattern) {
         def matchList = []
-        new File(matchDirectory).eachFileMatch(filePattern) {
+        def filePatternMatcher = ~filePattern
+        println "pattern=$filePattern"
+        new File(matchDirectory).eachFileMatch(filePatternMatcher) {
             matchList << it
         }
         matchList

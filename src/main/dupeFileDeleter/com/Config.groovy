@@ -8,6 +8,7 @@ class Config {
 //    def defaultPattern = /(.*) [\d]+(\..*)   // for iTunes /
 //    def rootDir = "J:\\aura\\UP\\RMT Rules\\Disclosures"
 //    def rootDir = "J:\\aura\\UP\\RMT Rules\\Disclosures\\Export Decision Tables 07-27-16 after promotion Correct Names"
-    def rootDir = "C:\\test"
-    def defaultPattern = /(.*)\[.*TestCases\].csv/   //bracket file pattern
+//    def rootDir = "C:\\test"
+    def defaultPattern = /(.*)\[.*\].csv/   //bracket file pattern
+    def rootDir = "J:\\aura\\NG\\Disclosures\\Export QA Disclosures rules and brUnits 072816"
 }

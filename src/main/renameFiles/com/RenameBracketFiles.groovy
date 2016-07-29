@@ -25,30 +25,31 @@ class RenameBracketFiles {
     def renameBracketFiles(rootDir) {
         def renameList = getBracketedFilenameList(rootDir)
 
-        println "Directory: $rootDir..."
-        println renameList.size()
+        println "Matching files: ${renameList.size()}"
         renameList.each {
 //            println it
             def oldName = it.toString()
             def matcher = (oldName =~ defaultPattern)
-//            def origFile = matcher[0][1] + matcher[0][2]
             println "old name:" + oldName
             def newName = matcher[0][1] + ".csv"
             println "new name:" + newName
-//            new File(oldName).renameTo(new File(newName))
+            new File(oldName).renameTo(new File(newName))
         }
         renameList.size()
     }
 
     def runMain() {
         def rootDir = chooseRootDirectory()
-        def renameCount = renameBracketFiles(rootDir)
-        println "$renameCount files renamed"
+        if (rootDir != null) {
+            def renameCount = renameBracketFiles(rootDir)
+            println "$renameCount files renamed"
+        }
     }
 
     static main(args) {
         def app = new RenameBracketFiles()
         app.runMain()
+        println "done"
     }
 
 }
