@@ -716,7 +716,7 @@
       <workItem from="1469629203580" duration="6790000" />
       <workItem from="1469654000104" duration="223000" />
       <workItem from="1469808307353" duration="2483000" />
-      <workItem from="1469812395046" duration="170000" />
+      <workItem from="1469812395046" duration="259000" />
     </task>
     <task id="LOCAL-00001" summary="Updated default root directory">
       <created>1467746149844</created>
@@ -753,7 +753,14 @@
       <option name="project" value="LOCAL" />
       <updated>1469812470800</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated default root directory - set back for iTunes library">
+      <created>1469812580938</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1469812580938</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -771,7 +778,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11557000" />
+    <option name="totallyTimeSpent" value="11646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1656" height="993" extended-state="0" />
